@@ -23,6 +23,7 @@
         "backgroundColor": "#ffffff"
       }
     },
+    "scheme": "to-do-app",
     "web": {
       "favicon": "./assets/favicon.png"
     },
@@ -31,6 +32,9 @@
         "projectId": "feb15f3b-e2c6-4928-ab52-cfd58b6b435d"
       }
     },
-    "owner": "aksh03"
+    "owner": "aksh03",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
