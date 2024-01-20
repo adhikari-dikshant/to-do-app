@@ -1,13 +1,4 @@
-import {
-    Image,
-    Pressable,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TextInput,
-    View,
-    ViewBase,
-} from "react-native";
+import { Image, Pressable, ScrollView, StyleSheet, Text, TextInput, View, ViewBase } from "react-native";
 import React, { useState, useEffect } from "react";
 import { AntDesign, Feather } from "@expo/vector-icons";
 import { BottomModal } from "react-native-modals";
@@ -42,18 +33,10 @@ const index = () => {
         },
         {
             id: "2",
-            todo: "Go to bed early",
-        },
-        {
-            id: "3",
             todo: "Take pill reminder",
         },
         {
-            id: "4",
-            todo: "Go Shopping",
-        },
-        {
-            id: "5",
+            id: "3",
             todo: "finish assignments",
         },
     ];
@@ -65,7 +48,7 @@ const index = () => {
             };
 
             axios
-                .post("http://localhost:3000/todos/6583eea7c5bc35503ef0f5ae", todoData)
+                .post("http://localhost:3000/todos/....", todoData)
                 .then((response) => {
                     console.log(response);
                 })
@@ -86,7 +69,7 @@ const index = () => {
     const getUserTodos = async () => {
         try {
             const response = await axios.get(
-                `http://localhost:3000/users/6583eea7c5bc35503ef0f5ae/todos`
+                `http://localhost:3000/users/.../todos`
             );
 
             console.log(response.data.todos);

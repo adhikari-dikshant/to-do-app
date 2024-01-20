@@ -1,13 +1,4 @@
-import {
-    StyleSheet,
-    Text,
-    View,
-    SafeAreaView,
-    KeyboardAvoidingView,
-    TextInput,
-    Pressable,
-    Alert,
-} from "react-native";
+import { StyleSheet, Text, View, SafeAreaView, KeyboardAvoidingView, TextInput, Pressable, Alert } from "react-native";
 import React, { useState } from "react";
 import { MaterialIcons } from "@expo/vector-icons";
 import { AntDesign, Ionicons } from "@expo/vector-icons";
@@ -49,7 +40,7 @@ const register = () => {
             <KeyboardAvoidingView>
                 <View style={{ alignItems: "center" }}>
                     <Text style={{ fontSize: 16, fontWeight: "600", marginTop: 20 }}>
-                        register  to your account
+                        Welcome, register to your account
                     </Text>
                 </View>
 
